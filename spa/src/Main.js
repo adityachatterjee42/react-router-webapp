@@ -18,12 +18,14 @@ class Main extends Component {
           <ul className="header">
             <li><NavLink exact to="/">About</NavLink></li>
             <li><NavLink to="/Projects">Projects</NavLink></li>
-            <li><NavLink to="/Blog">Blog</NavLink></li>
+            {/* <li><NavLink to="/Blog">Blog</NavLink> </li> */}
           </ul>
+          
           <div className="content">
             <Route exact path="/" component={About}/>
             <Route path="/Projects" component={Projects}/>
-            <Route path="/Blog" component={Blog}/>
+            {/* <Route path="/Blog" component={Blog}/> */}
+            
           </div>
         </div>
       </HashRouter>
