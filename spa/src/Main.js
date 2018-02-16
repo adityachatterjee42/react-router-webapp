@@ -14,7 +14,7 @@ class Main extends Component {
       <HashRouter>
         <div>
           <h1>Aditya Chatterjee</h1>
-          <h2>Graduate student at the University of Washington, Software & Data Engineer</h2>
+          <h2>Graduate student at the University of Washington, aspiring software engineer</h2>
           <ul className="header">
             <li><NavLink exact to="/">About</NavLink></li>
             <li><NavLink to="/Projects">Projects</NavLink></li>
